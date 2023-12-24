@@ -1,0 +1,97 @@
+.wrapper h1{
+    font-size: 2rem;
+}
+.wrapper p{
+    font-size: 1rem;
+    /* word-wrap:break-word; */
+    overflow-wrap: break-word;
+}
+.wrapper{
+    width: 50%;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: var(--bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper button{
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    padding: 1rem 1.5rem;
+    color: white;
+    background-color: var(--link-color);
+    position: absolute;
+    bottom: -10px;
+    left:60%;
+    transform: translateX(-50%);
+}
+
+.wrapper .backBtn
+{
+    left: 40%;
+}
+.wrapper button:hover{
+    box-shadow: 0 0 10px var(--link-color);
+}
+.resume{
+    width: 140mm;
+    height: 180mm;
+    background-color: white;
+    box-shadow: 0 0 5px white;
+    border-radius: 1rem;
+    padding: 4rem;
+    position: relative;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start
+}
+.leftHeader{
+    width: 6rem;
+    height: 6rem;
+    margin: 0 1rem 0 0;
+}
+.leftHeader img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+
+
+.resume main{
+    display: flex;
+    margin: 1rem 0 0 0;
+    gap: 0.5rem;
+}
+.resume main h2{
+    font-size: 1.4rem;
+    margin: 1.5rem 0 0.3rem 0;
+}
+main .leftSection{
+    width: 75%;
+}
+.leftSection h2 svg{
+    height: 1.4rem;
+    width: 1.4rem;
+    fill: black;
+    margin: 0 6px -1px 0;
+}
+main .rightSection{
+    width: 25%;
+}
+.rightSection h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 1rem 0 0.3rem 0;
+}
+.leftSection .gray{
+    font-size: 0.9rem;
+}

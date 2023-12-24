@@ -1,0 +1,27 @@
+.dynamicSecCon{
+    border: 1px solid var(--secondary-color);
+    padding: 3rem;
+    border-radius: 0.51rem;
+    position: relative;
+    margin: 1rem 0;
+}
+.dynamicSecCon svg{
+    position: absolute;
+    right: 25px;
+    cursor: pointer;
+    color: var(--secondary-color);
+}
+
+.dynamicSecCon svg:hover{
+    color: var(--link-color);
+    text-shadow: 0 0 5px currentColor;
+}
+.dynamicSecItem{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem 4rem;
+}
+
+.dTextarea{
+    grid-column: 1/2 span;
+}

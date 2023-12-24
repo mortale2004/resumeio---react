@@ -1,0 +1,35 @@
+.resumeEditor{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 50vw;
+    padding: 5rem;
+
+}
+.resumeEditor p{
+    margin: 0 0 2rem 0;
+}
+.resumeEditor h1{
+    margin: 1rem 0;
+}
+.personalDetails{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem 4rem;
+}
+
+.personalDetails .imageCon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.personalDetails .imageCon img{
+    width: 150px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin: 0 2rem 0 0;
+}
+.section{
+    margin: 2rem 0; 
+}
